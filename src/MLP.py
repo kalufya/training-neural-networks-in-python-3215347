@@ -21,7 +21,7 @@ class Perceptron:
         self.weights = np.array(w_init)
 
     def sigmoid(self, x):
-        """Evaluate the sigmoid function for the floating point input x."""
+        """Evaluate the sigmoid function for the floating point input x. This is a test"""
         return 1/(1+np.exp(-x))
 
 
